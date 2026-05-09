@@ -6,7 +6,8 @@ from app.routes import playlist, stream
 app = FastAPI()
 
 origins = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://yt-music-frontend-gules.vercel.app/"
 ]
 
 app.add_middleware(
