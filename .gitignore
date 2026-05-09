@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# yt_dlp / downloads
+downloads/
+temp/
+cache/
+
+# FFmpeg temp
+*.mp3
+*.m4a
+*.webm
+*.part
+
+# Cookies
+cookies.txt
+
+# Render
+.render/
+
+# Local databases
+*.sqlite3
+
+# Node (if accidentally inside backend)
+node_modules/
